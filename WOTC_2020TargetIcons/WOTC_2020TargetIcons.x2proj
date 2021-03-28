@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>2ef2f5bb-1cba-4d6d-95b2-8fd3d0389ba4</Guid>
+    <Name>WOTC_2020TargetIcons</Name>
+    <Description>Tons of target icons for modded enemies</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>WOTC_2020TargetIcons</AssemblyName>
+    <RootNamespace>WOTC_2020TargetIcons</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Content" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\WOTC_2020TargetIcons\" />
+    <Folder Include="Src\WOTC_2020TargetIcons\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\UILibrary_NI2020.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ReadMe.txt" />
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Config\XComNew2020Icons.ini" />
+    <Content Include="Src\WOTC_2020TargetIcons\Classes\X2DownloadableContentInfo_WOTC_2020TargetIcons.uc" />
+    <Content Include="Src\WOTC_2020TargetIcons\Classes\X2EventListener_TacUI_FixUp.uc">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>
